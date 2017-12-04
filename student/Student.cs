@@ -27,7 +27,6 @@ namespace student
         
         public Student():this("Noname","Nofullname")
         {
-            Grades = new int[0];
         }
         public Student(string name,string fullName):this(0)
         {
