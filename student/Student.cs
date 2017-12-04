@@ -29,10 +29,14 @@ namespace student
         {
             Grades = new int[0];
         }
-        public Student(string name,string fullName)
+        public Student(string name,string fullName):this(0)
         {
             Name = name;
             FullName = fullName;
+        }
+        public Student (int size)
+        {
+            Grades = new int[size];
         }
 
         public double GetAverageGrade()
